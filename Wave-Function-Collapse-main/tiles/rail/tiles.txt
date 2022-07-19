@@ -1,0 +1,37 @@
+[
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile0.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile1.png',
+		'sides': ['aba', 'aba', 'aba', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile2.png',
+		'sides': ['baa', 'aab', 'aaa', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile3.png',
+		'sides': ['baa', 'aaa', 'aab', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile4.png',
+		'sides': ['aba', 'aba', 'aaa', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile5.png',
+		'sides': ['aba', 'aaa', 'aba', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\rail\\tile6.png',
+		'sides': ['aba', 'aba', 'aba', 'aba'],
+		'rotation': 4
+	},
+]

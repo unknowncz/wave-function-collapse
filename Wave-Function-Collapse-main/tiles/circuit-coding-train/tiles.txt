@@ -1,0 +1,67 @@
+[
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\0.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\1.png',
+		'sides': ['bbb', 'bbb', 'bbb', 'bbb'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\2.png',
+		'sides': ['bbb', 'bcb', 'bbb', 'bbb'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\3.png',
+		'sides': ['bbb', 'bdb', 'bbb', 'bdb'],
+		'rotation': 2
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\4.png',
+		'sides': ['abb', 'bcb', 'bba', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\5.png',
+		'sides': ['abb', 'bbb', 'bbb', 'bba'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\6.png',
+		'sides': ['bbb', 'bcb', 'bbb', 'bcb'],
+		'rotation': 2
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\7.png',
+		'sides': ['bdb', 'bcb', 'bdb', 'bcb'],
+		'rotation': 2
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\8.png',
+		'sides': ['bdb', 'bbb', 'bcb', 'bbb'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\9.png',
+		'sides': ['bcb', 'bcb', 'bbb', 'bcb'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\10.png',
+		'sides': ['bcb', 'bcb', 'bcb', 'bcb'],
+		'rotation': 2
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\11.png',
+		'sides': ['bcb', 'bcb', 'bbb', 'bbb'],
+		'rotation': 4
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\circuit-coding-train\\12.png',
+		'sides': ['bbb', 'bcb', 'bbb', 'bcb'],
+		'rotation': 4
+	},
+]

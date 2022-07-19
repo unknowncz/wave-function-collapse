@@ -15,15 +15,12 @@ class tile:
 	size:int
 	sides:list
 	srcpath:str = ''
+	img:Image = None
 
-# to be moved to own file - mostly
 metaconfig = {
-'DIM': 8,
-'ENTROPY_PASSES': 3,
-# 'SEED': 0,
-'TILESIZE': 8,
+**eval(open(f'{__file__}\\..\\metadata.txt').read()),
 # yeah yeah insecure but whatever
-'TILES': eval(open(f'{__file__}\\..\\tiles.txt').read()),
+'TILES': eval(open(f'{__file__}\\..\\tiles.txt').read())
 }
 
 def p():
@@ -37,16 +34,16 @@ def p():
 		for j in i:
 			print(j.pos, j.tile)
 
-# works so far
+# works so far - does it?
+
 def rotate(tile, rotation):
-	newtile = {**tile}
+	t = {**tile}
+	# rotate tile
+	t['img'] = t['img'].rotate(rotation * 90)
+	# get new sides
 	for i in range(rotation):
-		if newtile['src']:
-			newtile['img'] = newtile['img'].rotate(-90)
-		newUP = newtile['sides'][-1][::-1]
-		newtile['sides'] = [newUP] + [newtile['sides'][0], newtile['sides'][1][::-1], newtile['sides'][2]]
-	del newtile['rotation']
-	return newtile
+		t['sides'] = [t['sides'][1], t['sides'][2][::-1], t['sides'][3], t['sides'][0][::-1]]
+	return t
 
 try:
 	random.seed(metaconfig['SEED'])
@@ -60,12 +57,6 @@ for t in metaconfig['TILES']:
 	for i in range(t['rotation']):
 		alltiles.append(rotate(t, i))
 		allpossibilities.append(alltiles[-1]['sides'])
-
-# for t in alltiles:
-# 	print(t['sides'])
-# 	t['img'].show()
-# 	input()
-
 
 @dataclass
 class Cell:
@@ -113,18 +104,21 @@ def reduceEntropy(cell):
 	for poss in cell.possibilities:
 		i = False
 
+		# this is somehow wrong?
 		for nup in n0.possibilities:
 			if poss[UP] != nup[DOWN][::-1]:
 				continue
 
 			for nrp in n1.possibilities:
 				if poss[RIGHT] != nrp[LEFT][::-1]:
+				# if poss[RIGHT] != nrp[LEFT]:
 					continue
 				for ndp in n2.possibilities:
-					if poss[DOWN] != ndp[UP]:
+					if poss[DOWN] != ndp[UP][::-1]:
 						continue
 					for nlp in n3.possibilities:
-						if poss[LEFT] != nlp[RIGHT]:
+						if poss[LEFT] != nlp[RIGHT][::-1]:
+						# if poss[LEFT] != nlp[RIGHT]:
 							continue
 						# this looks ugly as shit but at this point i dont care
 						ncpl.append(poss)

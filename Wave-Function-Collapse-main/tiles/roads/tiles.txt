@@ -1,0 +1,27 @@
+[
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\roads\\blank.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\roads\\down.png',
+		'sides': ['aaa', 'aba', 'aba', 'aba'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\roads\\left.png',
+		'sides': ['aba', 'aaa', 'aba', 'aba'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\roads\\right.png',
+		'sides': ['aba', 'aba', 'aba', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\roads\\up.png',
+		'sides': ['aba', 'aba', 'aaa', 'aba'],
+		'rotation': 1
+	}
+]

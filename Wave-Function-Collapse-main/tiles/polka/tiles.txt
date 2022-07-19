@@ -1,0 +1,27 @@
+[
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\polka\\blank.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\polka\\down.png',
+		'sides': ['aaa', 'aba', 'aba', 'aba'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\polka\\left.png',
+		'sides': ['aba', 'aaa', 'aba', 'aba'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\polka\\right.png',
+		'sides': ['aba', 'aba', 'aba', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'Wave-Function-Collapse-main\\tiles\\polka\\up.png',
+		'sides': ['aba', 'aba', 'aaa', 'aba'],
+		'rotation': 1
+	}
+]
