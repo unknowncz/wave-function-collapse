@@ -1,0 +1,6 @@
+{
+	'DIM': 50,
+	'ENTROPY_PASSES': 3,
+	# 'SEED': 0,
+	'TILESIZE': 8,
+}

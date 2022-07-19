@@ -1,0 +1,32 @@
+[
+	{
+		'src': 'tile0.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'bbb'],
+		'rotation': 4
+	},
+	{
+		'src': 'tile1.png',
+		'sides': ['aaa', 'bbb', 'aaa', 'bbb'],
+		'rotation': 2
+	},
+	{
+		'src': 'tile2.png',
+		'sides': ['bbb', 'bbb', 'bbb', 'aaa'],
+		'rotation': 4
+	},
+	{
+		'src': 'tile3.png',
+		'sides': ['aaa', 'aaa', 'aaa', 'aaa'],
+		'rotation': 1
+	},
+	{
+		'src': 'tile4.png',
+		'sides': ['bbb', 'bbb', 'bbb', 'bbb'],
+		'rotation': 1
+	},
+	{
+		'src': 'tile5.png',
+		'sides': ['aaa', 'aaa', 'bbb', 'bbb'],
+		'rotation': 4
+	}
+]
